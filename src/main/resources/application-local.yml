@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fullstackdb
+    username: fullstack
+    password: dev_password
+
+
+  session:
+    jdbc:
+      initialize-schema=always:
